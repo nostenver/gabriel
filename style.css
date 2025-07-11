@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefaf3;
+  color: #333;
+}
+
+.navbar {
+  background-color: #6b1f5b;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('img/portada.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero button {
+  background-color: #f2b705;
+  color: #000;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contenido {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.imagen-larga {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+.contacto {
+  background-color: #eee;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.contacto input {
+  padding: 0.8rem;
+  margin: 0.5rem;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contacto button {
+  padding: 0.8rem 2rem;
+  background-color: #6b1f5b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #6b1f5b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
