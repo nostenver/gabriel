@@ -17,7 +17,7 @@ app.use(helmet({
 }));
 
 // CORS solo si lo necesitas
-// app.use(cors({ origin: 'https://tudominio.com' }));
+// app.use(cors({ origin: 'https://sumaq.com' }));
 
 // Redirige HTTP a HTTPS (si tienes servidor HTTP en 80)
 app.use((req, res, next) => {
